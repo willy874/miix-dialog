@@ -1,0 +1,17 @@
+@import "modal";
+@import 'modal-popup';
+@import 'modal-animations';
+@import 'toast';
+@import 'snackbar';
+@import 'animated';
+
+.draggable {
+    touch-action: none;
+    user-select: none;
+    transition-duration: 0s !important;
+}
+
+:root{
+    --snackbar-status: rgb(50,50,50);
+    --snackbar-text-color: #fff;
+}
